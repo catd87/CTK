@@ -48,7 +48,7 @@ module "eks" {
   subnets      = module.vpc.public_subnets
   cluster_version = var.cluster_version
   manage_aws_auth = false
-
+  ##Test
   depends_on = [module.vpc]
   }
   
